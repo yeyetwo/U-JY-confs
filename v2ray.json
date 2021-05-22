@@ -1,0 +1,29 @@
+{
+    "log": {
+        "loglevel": "debug"
+    },
+    "inbounds": [
+        {
+            "protocol": "vless",
+            "port": "4000",
+            "settings": {
+                "decryption":"none",
+                "clients": [
+                    {"id": "{{a301ff45-3048-486c-8020-6dd44f57d821}}"}
+                ]
+            },
+            "streamSettings": {
+                "mtu": 1200,
+                "tti": 20,
+                "uplinkCapacity": 30,
+                "downlinkCapacity": 30,
+                "congestion": false,
+                "readBufferSize": 1,
+                "writeBufferSize": 1
+            }
+        }
+    ],
+    "outbounds": [
+        {"protocol": "freedom"}
+    ]
+}
