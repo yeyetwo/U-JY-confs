@@ -9,7 +9,7 @@
             "settings": {
                 "decryption":"none",
                 "clients": [
-                    {"id": "{{a301ff45-3048-486c-8020-6dd44f57d821}}"}
+                    {"id": "a301ff45-3048-486c-8020-6dd44f57d821"}
                 ]
             },
             "streamSettings": {
